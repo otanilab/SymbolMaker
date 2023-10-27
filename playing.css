@@ -1,0 +1,346 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.title {
+    display:block;
+    left: 50%;
+    padding: 0.6em 2em;
+    margin: 0 0 1em;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.mark{
+    display:block;
+    left: 0%;
+    padding: 0.6em 2em;
+    margin: 0 0 1em;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.checkbox {
+    position: relative;
+    display: none;
+    top: -185px;
+    left: 140px;
+}
+
+.ul_b {
+    margin: auto;
+    margin-bottom: 10px;
+    border-collapse: separate;
+    border-spacing: 40px 0;
+    display: table;
+}
+
+.ul_c {
+    position: absolute left 50%;
+    margin:auto;
+    border-collapse: separate;
+    border-spacing: 40px 0;
+    display: table;
+}
+
+.ul_cc{
+    position: relative;
+        left: 9px;
+    margin: auto;
+    border-collapse: separate;
+    border-spacing: 40px 0;
+    display: table;
+}
+
+.design {
+    margin-right: 10px;
+}
+
+.create_span_span{
+    font 'メイリオ';
+    font-size: 22px;
+}
+
+.design:hover {
+    opacity: 0.7;
+    outline: 0.35em solid #191970;
+}
+
+input[type="checkbox"]:checked + .design {
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.4);
+        outline: 0.4em solid #191970;
+}
+
+.button_aa{
+    display:block;
+    left: 50%;
+    padding: 0.6em 2em;
+    margin: 0 0 1em;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: auto;
+    font-family: 'Helvetica';
+    font-size: 18px;
+    background: #646464;
+    border: 0.1em solid #646464;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    border-radius:5px;
+}
+
+.button_aa:hover {
+    background:  #76add2;
+    border: 0.1em solid #76add2;
+    color: #ffffff;
+}
+
+.ul_a {
+    margin: auto;
+    border-collapse: separate;
+    border-spacing: 40px 0;
+    display: table;
+    margin-top: 10px;
+}
+.ul_last1 {
+    margin: auto;
+    border-collapse: separate;
+    border-spacing: 40px 0;
+    display: table;
+    margin-top: 10px;
+}
+.ul_last2 {
+
+    margin: auto;
+    border-collapse: separate;
+    border-spacing: 40px 0;
+    display: table;
+    margin-top: 10px;
+}
+li {
+    display: table-cell;
+
+}
+
+.span_class {
+    display: block;
+}
+
+#base {
+    margin: auto;
+}
+
+#color {
+    display: none;
+}
+#color_b {
+    display: none;
+}
+
+
+
+.button_reset{
+    position: absolute;
+    padding: 0.6em 2em;
+    margin: 0 0 1em;
+    width: 200px;
+    height: auto;
+    font 'メイリオ';
+    font-size: 15px;
+    background: #646464;
+    border: 0.1em solid #646464;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-right: 20px;
+    margin-top: 20px;
+    left: 400px;
+    border-radius:5px;
+}
+
+.button_reset:hover {
+    background:  #76add2;
+    border: 0.1em solid #76add2;
+    color: #ffffff;
+}
+
+.button_finish{
+    position: absolute;
+    padding: 0.6em 2em;
+    margin: 0 0 1em;
+    width: 200px;
+    height: auto;
+    font 'メイリオ';
+    font-size: 15px;
+    background: #646464;
+    border: 0.1em solid #646464;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-right: 20px;
+    margin-top: 20px;
+    right: 300px;
+    border-radius:5px;
+}
+
+.button_finish:hover {
+    background:  #c96161;
+    border: 0.1em solid #c96161;
+    color: #ffffff;
+}
+
+.button {
+    padding: 0.6em 2em;
+    margin: 0 0 1em;
+    width: 200px;
+    height: auto;
+    font 'メイリオ';
+    font-size: 15px;
+    background: #646464;
+    border: 0.1em solid #646464;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-right: 20px;
+    margin-top: 20px;
+    border-radius:5px;
+
+}
+
+.backbutton {
+    left: 75%;
+    padding: 0.6em 2em;
+    text-align: center;
+    width: 200px;
+    height: auto;
+    font-family: 'Helvetica';
+    font-size: 15px;
+    background: #646464;
+    border: 0.1em solid #3f3838;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    border-radius:5px;
+    position: absolute;
+    top: 0;
+    margin-top: 20px;
+}
+.backbutton:hover {
+    background:  #76add2;
+    border: 0.1em solid #76add2;
+    color: #ffffff;
+}
+
+
+.save_button{
+    width: 200px;
+}
+
+
+.button_a{
+    
+}
+
+.color_div{
+    margin-left:72px;
+}
+.color_button{
+    margin-top: 5px;
+    margin-left: 140px;
+    width: 138px;
+    background: #646464;
+    border: 0.1em solid #646464;
+    font-size: 15px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    border-radius:2px
+    
+}
+
+.color_div_b{
+    margin-left: 3px;
+}
+
+.color_button_b{
+    margin-top: 5px;
+    margin-left: 30px;
+    width: 138px;
+    background: #646464;
+    border: 0.1em solid #646464;
+    font-size: 15px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    border-radius:2px
+    
+}
+
+
+
+.color_button:hover {
+    background:  #76add2;
+    border: 0.1em solid #76add2;
+    color: #ffffff;
+}
+
+.button:hover {
+    background:  #76add2;
+    border: 0.1em solid #76add2;
+    color: #ffffff;
+}
+
+input[type="range"] {
+    -webkit-appearance: none;
+    width: 90%;
+    background: #eee;
+    box-shadow: 0 0 10px #666;
+    border-radius: 50px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    background: #333;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+}
+
+input[type="range"]::-webkit-slider-thumb:hover {
+    background: #999;
+}
+
+input[type="range"]::-webkit-slider-thumb:active {
+    background: #fefefe;
+}
+
+#savecanvas {
+    display: none;
+}
+
+#base {
+    font-family: sans-serif;
+}
+
+.down_p{
+    margin-bottom:5px; 
+    margin-top:10px;
+    text-align:center;
+    font-size: 20px;
+}
+.count_p{
+    left: 75%;
+    padding: 0.6em 2em;
+    text-align: center;
+    width: 200px;
+    height: auto;
+    font-family: 'Helvetica';
+    font-size: 15px;
+    transition: all 0.3s ease 0s;
+    border-radius:5px;
+    position: absolute;
+    top: 0;
+    margin-top: 30px;
+}
